@@ -1,6 +1,6 @@
 ## Table of contents
 - [Introduction](Introduction)
-- [Todo](TODO)
+- [TODO](TODO)
 ## Introduction
 A simple REST API with authentication that uses Express, JWT, MongoDB.
 
