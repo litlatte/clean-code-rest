@@ -21,7 +21,7 @@ Given an entity [entity1] I recommend adding a file [entity1].validators.js unde
 ./[entity1]/[entity2].js<br/>
 ./[entity1]/[entity2].validators.js<br/><br />
 
-Example: *Post* and *Like*, this 2 entities are highly connected to eachother therefore abdove best practice apply
+Example: *Post* and *Like*, this 2 entities are highly connected to eachother therefore above best practice apply
 
 `./use-cases`<br />
 This folder contains all the base functions that will be then used by the controllers.<br />
