@@ -1,11 +1,11 @@
 ## Table of contents
 * [Introduction](#Introduction)
 * [Folders](#Folders)
-    - [models](#--models)
-    - [user ( or [entity] in general)](#--user)
-    - [use-cases](#--use-cases)
-    - [controllers](#--controllers)
-    - [routes](#--routes)
+    - [models](#models)
+    - [user ( or [entity] in general)](#user)
+    - [use-cases](#use-cases)
+    - [controllers](#controllers)
+    - [routes](#routes)
 * [Todo](#TODO)
 ## Introduction
 A simple REST API with authentication that uses Express, JWT, MongoDB.
