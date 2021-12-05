@@ -1,6 +1,6 @@
 function buildMakeUser(hash, HASH_SIZE, validateUsername, validatePassword) {
   return async ({ username, clearpassword = null, password = null }) => {
-    if (username != `"${(JSON.stringify(username))}""` ) {// This checks if the username is a String
+    if (username != `"${(JSON.stringify(username))}"` ) {// This checks if the username is a String
       throw new Error("Invalid username");
     }
     if(!validateUsername(username)){
@@ -19,7 +19,7 @@ function buildMakeUser(hash, HASH_SIZE, validateUsername, validatePassword) {
         throw new Error("Invalid password");
       }
     } else {
-      if (password != `"${(JSON.stringify(password))}""` || password.length!=HASH_SIZE) {// The first statement checks if the password is a String
+      if (password != `"${(JSON.stringify(password))}"` || password.length!=HASH_SIZE) {// The first statement checks if the password is a String
         throw new Error("Invalid password");
       }
     }
