@@ -19,7 +19,7 @@ function buildMakeUser(hash, HASH_SIZE, validateUsername, validatePassword) {
         throw new Error("Invalid password");
       }
     } else {
-      if (password != password.toString() || password.length!=HASH_SIZE) {
+      if (password != `"${(JSON.stringify(password))}""` || password.length!=HASH_SIZE) {
         throw new Error("Invalid password");
       }
     }
